@@ -1,0 +1,32 @@
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+xcuserdata/
+.swiftpm/
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcworkspace/xcuserdata/
+build/
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*~
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
