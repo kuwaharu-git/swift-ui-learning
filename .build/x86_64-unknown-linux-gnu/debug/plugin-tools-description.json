@@ -1,0 +1,674 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.xctest",
+      "packagePath" : "/home/runner/work/swift-ui-learning/swift-ui-learning",
+      "productName" : "SwiftUITimerLearningPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "SwiftUITimerLearningPackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SwiftUITimerLearning-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/sources",
+      "importPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/TimerLearningApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/timer_view.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftUITimerLearning",
+      "moduleOutputPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearning.swiftmodule",
+      "objects" : [
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.swift.o",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearning.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/TimerLearningApp.swift",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/timer_view.swift"
+      ],
+      "tempsPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftUITimerLearningPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/sources",
+      "importPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/SwiftUITimerLearningTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftUITimerLearningPackageDiscoveredTests",
+      "moduleOutputPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningTests.swift.o",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/SwiftUITimerLearningTests.swift",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift"
+      ],
+      "tempsPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/sources",
+      "importPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftUITimerLearningPackageTests",
+      "moduleOutputPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftUITimerLearningTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/sources",
+      "importPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/Tests/SwiftUITimerLearningTests/TimerViewModelTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearning.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftUITimerLearningTests",
+      "moduleOutputPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/TimerViewModelTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/TimerViewModelTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/swift-ui-learning/swift-ui-learning/Tests/SwiftUITimerLearningTests/TimerViewModelTests.swift"
+      ],
+      "tempsPath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SwiftUITimerLearning" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "SwiftUITimerLearning",
+      "-incremental",
+      "-c",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/TimerLearningApp.swift",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/timer_view.swift",
+      "-I",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "SwiftUITimerLearningPackageDiscoveredTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "SwiftUITimerLearningPackageDiscoveredTests",
+      "-incremental",
+      "-c",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/SwiftUITimerLearningTests.swift",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift",
+      "-I",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "SwiftUITimerLearningPackageTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "SwiftUITimerLearningPackageTests",
+      "-incremental",
+      "-c",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift",
+      "-I",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "SwiftUITimerLearningTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "SwiftUITimerLearningTests",
+      "-incremental",
+      "-c",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/Tests/SwiftUITimerLearningTests/TimerViewModelTests.swift",
+      "-I",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SwiftUITimerLearning" : [
+
+    ],
+    "SwiftUITimerLearningPackageDiscoveredTests" : [
+      "SwiftUITimerLearningTests",
+      "SwiftUITimerLearning"
+    ],
+    "SwiftUITimerLearningPackageTests" : [
+      "SwiftUITimerLearningPackageDiscoveredTests",
+      "SwiftUITimerLearningTests",
+      "SwiftUITimerLearning"
+    ],
+    "SwiftUITimerLearningTests" : [
+      "SwiftUITimerLearning"
+    ]
+  },
+  "testDiscoveryCommands" : {
+    "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/TimerViewModelTests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/SwiftUITimerLearningTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ]
+    }
+  },
+  "testEntryPointCommands" : {
+    "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/TimerLearningApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/timer_view.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/sources"
+    },
+    "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/SwiftUITimerLearningTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/sources"
+    },
+    "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/sources"
+    },
+    "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/SwiftUITimerLearning.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/SwiftUITimerLearningPackageTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/SwiftUITimerLearningTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/TimerViewModelTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.product/Objects.LinkFileList"
+    },
+    "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/swift-ui-learning/swift-ui-learning/Tests/SwiftUITimerLearningTests/TimerViewModelTests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/sources"
+    },
+    "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/usr/share/swift/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+    }
+  }
+}

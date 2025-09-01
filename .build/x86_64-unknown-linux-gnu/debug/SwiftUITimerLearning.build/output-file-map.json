@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/master.swiftdeps"
+  },
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/TimerLearningApp.swift": {
+    "dependencies": "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.d",
+    "object": "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.swift.o",
+    "swiftmodule": "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.swiftdeps"
+  },
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/timer_view.swift": {
+    "dependencies": "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.d",
+    "object": "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.swift.o",
+    "swiftmodule": "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.swiftdeps"
+  }
+}

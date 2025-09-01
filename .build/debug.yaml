@@ -1,0 +1,164 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "SwiftUITimerLearning-x86_64-unknown-linux-gnu-debug.module": ["<SwiftUITimerLearning-x86_64-unknown-linux-gnu-debug.module>"]
+  "SwiftUITimerLearningPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module": ["<SwiftUITimerLearningPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module>"]
+  "SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.module": ["<SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.module>"]
+  "SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.test": ["<SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.test>"]
+  "SwiftUITimerLearningTests-x86_64-unknown-linux-gnu-debug.module": ["<SwiftUITimerLearningTests-x86_64-unknown-linux-gnu-debug.module>"]
+  "main": ["<SwiftUITimerLearning-x86_64-unknown-linux-gnu-debug.module>"]
+  "test": ["<SwiftUITimerLearning-x86_64-unknown-linux-gnu-debug.module>","<SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.test>","<SwiftUITimerLearningTests-x86_64-unknown-linux-gnu-debug.module>"]
+default: "main"
+nodes:
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/Tests/SwiftUITimerLearningTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/SwiftUITimerLearning.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearning.swiftmodule"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/SwiftUITimerLearning.swiftmodule.o"]
+    description: "Wrapping AST for SwiftUITimerLearning for debugging"
+    args: ["/usr/share/swift/usr/bin/swiftc","-modulewrap","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearning.swiftmodule","-o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/SwiftUITimerLearning.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/TimerLearningApp.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/timer_view.swift"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/sources"]
+    description: "Write auxiliary file /home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/sources"
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule.o"]
+    description: "Wrapping AST for SwiftUITimerLearningPackageDiscoveredTests for debugging"
+    args: ["/usr/share/swift/usr/bin/swiftc","-modulewrap","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule","-o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/SwiftUITimerLearningTests.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/sources"]
+    description: "Write auxiliary file /home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/sources"
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift":
+    tool: test-discovery-tool
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/TimerViewModelTests.swift.o"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/SwiftUITimerLearningTests.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift"]
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/SwiftUITimerLearningPackageTests.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageTests.swiftmodule"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/SwiftUITimerLearningPackageTests.swiftmodule.o"]
+    description: "Wrapping AST for SwiftUITimerLearningPackageTests for debugging"
+    args: ["/usr/share/swift/usr/bin/swiftc","-modulewrap","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageTests.swiftmodule","-o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/SwiftUITimerLearningPackageTests.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/sources"]
+    description: "Write auxiliary file /home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/sources"
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift":
+    tool: test-entry-point-tool
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift"]
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/SwiftUITimerLearning.swiftmodule.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningTests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/all-discovered-tests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/SwiftUITimerLearningPackageTests.swiftmodule.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/runner.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/SwiftUITimerLearningTests.swiftmodule.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/TimerViewModelTests.swift.o"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.product/Objects.LinkFileList"
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/SwiftUITimerLearningTests.swiftmodule.o":
+    tool: shell
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/SwiftUITimerLearningTests.swiftmodule.o"]
+    description: "Wrapping AST for SwiftUITimerLearningTests for debugging"
+    args: ["/usr/share/swift/usr/bin/swiftc","-modulewrap","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule","-o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/SwiftUITimerLearningTests.swiftmodule.o","-target","x86_64-unknown-linux-gnu"]
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/home/runner/work/swift-ui-learning/swift-ui-learning/Tests/SwiftUITimerLearningTests/TimerViewModelTests.swift"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/sources"]
+    description: "Write auxiliary file /home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/sources"
+
+  "/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/usr/share/swift/usr/bin/swiftc"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+
+  "<SwiftUITimerLearning-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearning.swiftmodule"]
+    outputs: ["<SwiftUITimerLearning-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "<SwiftUITimerLearningPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningTests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/all-discovered-tests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule"]
+    outputs: ["<SwiftUITimerLearningPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "<SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/runner.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageTests.swiftmodule"]
+    outputs: ["<SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "<SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.test>":
+    tool: phony
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.xctest"]
+    outputs: ["<SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.test>"]
+
+  "<SwiftUITimerLearningTests-x86_64-unknown-linux-gnu-debug.module>":
+    tool: phony
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/TimerViewModelTests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule"]
+    outputs: ["<SwiftUITimerLearningTests-x86_64-unknown-linux-gnu-debug.module>"]
+
+  "C.SwiftUITimerLearning-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/TimerLearningApp.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/timer_view.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/sources"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearning.swiftmodule"]
+    description: "Compiling Swift Module 'SwiftUITimerLearning' (2 sources)"
+    args: ["/usr/share/swift/usr/bin/swiftc","-module-name","SwiftUITimerLearning","-emit-dependencies","-emit-module","-emit-module-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearning.swiftmodule","-output-file-map","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/output-file-map.json","-parse-as-library","-incremental","-c","@/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/sources","-I","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-enable-batch-mode","-index-store-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-swift-version","5","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.SwiftUITimerLearningPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/SwiftUITimerLearningTests.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.derived/all-discovered-tests.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/sources"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningTests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/all-discovered-tests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule"]
+    description: "Compiling Swift Module 'SwiftUITimerLearningPackageDiscoveredTests' (2 sources)"
+    args: ["/usr/share/swift/usr/bin/swiftc","-module-name","SwiftUITimerLearningPackageDiscoveredTests","-emit-dependencies","-emit-module","-emit-module-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule","-output-file-map","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/sources","-I","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-enable-batch-mode","-index-store-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.derived/runner.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/sources"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/runner.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageTests.swiftmodule"]
+    description: "Compiling Swift Module 'SwiftUITimerLearningPackageTests' (1 sources)"
+    args: ["/usr/share/swift/usr/bin/swiftc","-module-name","SwiftUITimerLearningPackageTests","-emit-dependencies","-emit-module","-emit-module-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningPackageTests.swiftmodule","-output-file-map","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/sources","-I","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-enable-batch-mode","-index-store-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "C.SwiftUITimerLearningPackageTests-x86_64-unknown-linux-gnu-debug.test":
+    tool: shell
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/SwiftUITimerLearning.swiftmodule.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/TimerLearningApp.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearning.build/timer_view.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningPackageDiscoveredTests.swiftmodule.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/SwiftUITimerLearningTests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageDiscoveredTests.build/all-discovered-tests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/SwiftUITimerLearningPackageTests.swiftmodule.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.build/runner.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/SwiftUITimerLearningTests.swiftmodule.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/TimerViewModelTests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.product/Objects.LinkFileList"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.xctest"]
+    description: "Linking ./.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.xctest"
+    args: ["/usr/share/swift/usr/bin/swiftc","-L","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug","-o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.xctest","-module-name","SwiftUITimerLearningPackageTests","-emit-executable","-Xlinker","-rpath=$ORIGIN","@/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningPackageTests.product/Objects.LinkFileList","-target","x86_64-unknown-linux-gnu","-g"]
+
+  "C.SwiftUITimerLearningTests-x86_64-unknown-linux-gnu-debug.module":
+    tool: shell
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/Tests/SwiftUITimerLearningTests/TimerViewModelTests.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearning.swiftmodule","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/sources"]
+    outputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/TimerViewModelTests.swift.o","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule"]
+    description: "Compiling Swift Module 'SwiftUITimerLearningTests' (1 sources)"
+    args: ["/usr/share/swift/usr/bin/swiftc","-module-name","SwiftUITimerLearningTests","-emit-dependencies","-emit-module","-emit-module-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules/SwiftUITimerLearningTests.swiftmodule","-output-file-map","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/SwiftUITimerLearningTests.build/sources","-I","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/Modules","-target","x86_64-unknown-linux-gnu","-enable-batch-mode","-index-store-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/home/runner/work/swift-ui-learning/swift-ui-learning/.build/x86_64-unknown-linux-gnu/debug/ModuleCache","-parseable-output","-parse-as-library","-color-diagnostics","-swift-version","5","-g","-Xcc","-fPIC","-Xcc","-g","-Xcc","-fno-omit-frame-pointer"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/home/runner/work/swift-ui-learning/swift-ui-learning/Sources/SwiftUITimerLearning/","/home/runner/work/swift-ui-learning/swift-ui-learning/Tests/SwiftUITimerLearningTests/","/home/runner/work/swift-ui-learning/swift-ui-learning/Package.swift","/home/runner/work/swift-ui-learning/swift-ui-learning/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
