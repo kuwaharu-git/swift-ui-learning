@@ -4,6 +4,7 @@ SwiftUIの学習用リポジトリです。
 
 ## ドキュメント
 
+
 ### 基本文法・概念
 - [SwiftUI 基本文法まとめ](./swiftui_basic.md) - SwiftUIの基本的な文法と概念の解説
 - [SwiftUI よくあるエラー](./swiftui_common_errors.md) - 開発中によく遭遇するエラーと解決方法
@@ -14,6 +15,7 @@ SwiftUIの学習用リポジトリです。
 
 ### データ管理・表示
 - [SwiftUIにおける@Stateの完全ガイド](./swiftui_state_guide.md) - @Stateプロパティラッパーの基本から応用まで詳細に解説
+- [SwiftUIにおけるBindingの詳細ガイド](./swiftui_binding_guide.md) - @Bindingを使った双方向データバインディングの完全ガイド
 - [複数ファイル間での変数の受け渡し](./variable_passing_guide.md) - SwiftUIでの変数受け渡し方法の完全ガイド
 - [Swift Data データ保存テンプレート](./SwiftDataTemplate.md) - Swift Dataを用いたデータ保存方法の包括的なガイド
 - [SwiftUIでのリスト表示の方法](./SwiftUI_List_Usage.md) - リストを使って繰り返し要素を表示する方法の完全ガイド

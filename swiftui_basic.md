@@ -112,6 +112,8 @@ struct ChildView: View {
 }
 ```
 
+> **詳細解説**: Bindingについてより詳しく学びたい場合は、[SwiftUIにおけるBindingの詳細ガイド](./swiftui_binding_guide.md)をご参照ください。
+
 ---
 
 ## Swiftの基本文法
