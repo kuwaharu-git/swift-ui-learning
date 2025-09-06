@@ -4,6 +4,7 @@ SwiftUIの学習用リポジトリです。
 
 ## ドキュメント
 
+- [複数ファイル間での変数の受け渡し](./variable_passing_guide.md) - SwiftUIでの変数受け渡し方法の完全ガイド
 
 - [Swift Data データ保存テンプレート](./SwiftDataTemplate.md) - Swift Dataを用いたデータ保存方法の包括的なガイド
 
