@@ -4,6 +4,7 @@ SwiftUIの学習用リポジトリです。
 
 ## ドキュメント
 
+- [SwiftUIにおけるBindingの詳細ガイド](./swiftui_binding_guide.md) - @Bindingを使った双方向データバインディングの完全ガイド
 
 - [Swift Data データ保存テンプレート](./SwiftDataTemplate.md) - Swift Dataを用いたデータ保存方法の包括的なガイド
 
